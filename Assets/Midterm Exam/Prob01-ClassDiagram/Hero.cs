@@ -16,7 +16,7 @@ namespace MidtermExam.Prob01
         }
         public void CollectGold(int amount) //เพิ่มพิ่ ค่าค่ amount ให้กัห้บกั gold
         {
-            gold = amount;
+            gold =+ amount;
         }
         protected override void LevelUp(GameEntity target) //เรียกรี implementation จาก base class และรีเรีซ็ตซ็ currentExp = 0
         {

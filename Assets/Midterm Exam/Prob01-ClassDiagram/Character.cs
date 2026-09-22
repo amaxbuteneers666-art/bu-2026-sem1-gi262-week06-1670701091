@@ -16,7 +16,7 @@ namespace MidtermExam.Prob01
         }
         protected virtual void LevelUp(GameEntity target) 
         { 
-            level++;
+            level =+1;
         }
     }
 }
