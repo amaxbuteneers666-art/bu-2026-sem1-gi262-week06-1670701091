@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace MidtermExam.Prob01
 {
-    public class GameEntity
+    public class GameEntity:MonoBehaviour
     {
         public string id;
         private Vector3 position;
